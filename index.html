@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>bts grid system</title>
+
+    <style type="text/css">
+        .pink {
+            background: pink;
+            border: 1px solid purple;
+        }
+        .orange {
+            background: orange;
+            border: 1px dashed purple;
+            padding-bottom: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 pink">col2</div>
+        <div class="col-lg-8 pink">col8</div>
+        <div class="col-lg-2 pink">col2</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 pink">
+            <div class="col-lg-6 orange">erste hälfte</div>
+            <div class="col-lg-6 orange">zweite hälfte</div>
+        </div>
+        <div class="col-md-3 col-sm-6 pink">col4</div>
+        <div class="col-md-3 col-sm-6 pink">col4</div>
+        <div class="col-md-3 col-sm-6 pink">
+            <div class="row">
+                <div class="col-lg-2 orange"></div>
+                <div class="col-lg-2 orange"></div>
+                <div class="col-lg-2 orange"></div>
+                <div class="col-lg-2 orange"></div>
+                <div class="col-lg-2 orange"></div>
+                <div class="col-lg-2 orange"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

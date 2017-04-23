@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 70px;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background: url(http://unsplash.com/photos/wxxAx26SXys/download?force=true) center;
+}
+
+.jumbotron {
+    color: ##2c3e50;
+}
+
+.navbar-inverse {
+    color: #285655;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+#content {
+    padding-top: 25%;
+}
+
+#content>h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+}
+
+#content>h3 {
+    color: #d6d6d6;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #0f0f0f;
+}
